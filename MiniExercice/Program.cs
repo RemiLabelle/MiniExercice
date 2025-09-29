@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(CalculatricePostfixe.EvaluatePostfixExpression(new Queue<char>(new char[] { '3', '4', '2', '*', '+' })));
         }
     }
 }
